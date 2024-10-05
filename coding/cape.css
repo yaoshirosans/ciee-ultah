@@ -1,0 +1,41 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 10px;
+}
+
+.container {
+    text-align: center;
+}
+
+svg {
+    width: 200px;
+    height: 200px;
+}
+
+/* Styling for the button */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ff4081;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+}
+
+/* Hidden class for initially hiding the button */
+.hidden {
+    opacity: 0;
+    visibility: hidden;
+}
+
+/* Visible class for showing the button with fade-in effect */
+.visible {
+    opacity: 1;
+    visibility: visible;
+}

@@ -1,0 +1,47 @@
+/* Background settings */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('romantic-background.jpg'); /* Background image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #ffe4e1;
+}
+
+/* Container settings for the GIF and text */
+.container {
+    text-align: center;
+    background: #ff6f91; /* Slight black overlay for better text visibility */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* GIF styling */
+.romantic-gif {
+    width: 300px;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(255, 255, 255, 0.2);
+    transition: transform 0.3s ease;
+}
+
+/* Heading style */
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    font-family: 'Georgia', serif;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+/* GIF hover effect */
+.romantic-gif:hover {
+    transform: scale(1.1);
+}
